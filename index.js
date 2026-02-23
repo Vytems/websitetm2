@@ -20627,7 +20627,7 @@ function main(){
                 
             },
             desc:'Pierce through flowers and bubbles with torriental waves, washing away tokens and converting pollen from bees. Swings faster and ramps up the more you pop, then unleashes tidal waves in a violent surge at 500 bubbles. Splash Balloons with tall waves to earn Tide Blessing and re-energize tidal waves with the destruction of bubbles.',
-            cost:['2500000000000 honey','1000 blueExtract','200 stinger','30 swirledWax','15 superSmoothie']
+            cost:['0 honey','0 blueExtract','0 stinger','0 swirledWax','0 superSmoothie']
         },
         
         gummyBaller:{
@@ -20719,8 +20719,8 @@ function main(){
             out.restrictionInfo.allowed_25=amountOfBees&gt;=25?true:'You need 25 bees to enter the 25 Bee Zone!'
             out.restrictionInfo.allowed_30=amountOfBees&gt;=30?true:'You need 30 bees to enter the 30 Bee Zone!'
             out.restrictionInfo.allowed_35=amountOfBees&gt;=35?true:'You need 35 bees to enter the 35 Bee Zone!'
-            out.restrictionInfo.allowed_redHQ=redTypes&gt;=4?true:'Discover 4 red bee types to enter the Red HQ!'
-            out.restrictionInfo.allowed_blueHQ=blueTypes&gt;=4?true:'Discover 4 blue bee types to enter the Blue HQ!'
+            out.restrictionInfo.allowed_redHQ=redTypes&gt;=0?true:'Discover 4 red bee types to enter the Red HQ!'
+            out.restrictionInfo.allowed_blueHQ=blueTypes&gt;=0?true:'Discover 4 blue bee types to enter the Blue HQ!'
             out.restrictionInfo.allowed_sprinkler=legendaryTypes&gt;=1?true:'Discover 1 legendary bee type to enter the Sprinkler Shop!'
             out.restrictionInfo.allowed_ace=epicTypes&gt;=5?true:'Discover 5 epic bee types to enter the Ace Shop!'
             out.restrictionInfo.allowed_dapper=out.currentGear.mask!=='helmet'&amp;&amp;out.currentGear.mask!=='none'&amp;&amp;out.currentGear.boots!=='basicBoots'&amp;&amp;out.currentGear.boots!=='none'?true:'You must wear a nice hat and cool boots to enter the Dapper Shop!'
